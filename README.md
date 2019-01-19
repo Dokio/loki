@@ -1,10 +1,10 @@
-﻿<p align="center"><img src="docs/logo_and_name.png" alt="Loki Logo"></p>
+<p align="center"><img src="docs/logo_and_name.png" alt="Loki Logo"></p>
 
 <a href="https://circleci.com/gh/grafana/loki/tree/master"><img src="https://circleci.com/gh/grafana/loki.svg?style=shield&circle-token=618193e5787b2951c1ea3352ad5f254f4f52313d" alt="CircleCI" /></a>
 <a href="https://goreportcard.com/report/github.com/grafana/loki"><img src="https://goreportcard.com/badge/github.com/grafana/loki" alt="Go Report Card" /></a>
 <a href="http://slack.raintank.io/"><img src="https://img.shields.io/badge/join%20slack-%23loki-brightgreen.svg" alt="Slack" /></a>
 
-# Loki: like Prometheus, but for logs. Hello World
+# Loki: like Prometheus, but for logs.
 
 Loki is a horizontally-scalable, highly-available, multi-tenant log aggregation system inspired by [Prometheus](https://prometheus.io/).  It is designed to be very cost effective and easy to operate, as it does not index the contents of the logs, but rather a set of labels for each log stream.
 
